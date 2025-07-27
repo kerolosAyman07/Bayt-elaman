@@ -1,0 +1,197 @@
+@media (min-width: 350px) and (max-width: 768px){
+ .aboutUs_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+
+.aboutUs_img{
+  display: flex;
+  justify-content: center;
+}
+
+.aboutUs_img img{
+  width: 200%;
+}
+
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    height: auto;
+    padding-top: 0.9rem; 
+    padding-bottom: 0.9rem;
+  }
+
+  .navbar .logo_img {
+    max-height: 150px;
+    width: auto;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 1.15rem;
+    padding: 0.6rem 0.9rem;
+  }
+
+  .navbar-nav {
+    gap: 1.2rem !important;
+  }
+
+  .navbar .bi {
+    font-size: 1.4rem;
+  }
+
+  .nav_container {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+
+  header.header-sec {
+  height: calc(100vh - 70px);
+  margin-top: -180px;
+  }
+
+  header img {
+    height: 100vh !important; 
+    object-fit: fill !important;
+  }    
+
+
+  .aboutUs_container, .aboutUs_container.reverse {
+    flex-direction: column;
+  }
+
+  .aboutUs_img,.aboutUs_info {
+    width: 100%;
+  }
+
+  .aboutUs_img {
+    height: 400px; 
+  }
+
+  .aboutUs_img img {
+    position: relative;
+    bottom: 20px;
+  }
+
+  .aboutUs_info {
+    padding: 20px;
+    text-align: center;
+  }
+
+.carousel-inner{
+  padding-bottom: 60px;
+}
+
+.questions-sec{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+   overflow-x: hidden;
+}
+
+.questions-sec img{
+  position: relative;
+  left: 0px;
+  right: -45px;
+  width: 110%;
+}
+
+.footer-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  footer{
+    height: auto;
+  }
+  
+.footer_img{
+  display: flex;
+  width: 60% !important;
+  align-items: center;
+  justify-content: center;
+}
+
+}
+
+
+@media (max-width: 768px) {
+  .navbar {
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+  }
+
+  .navbar .logo_img {
+    max-height: 140px;
+    width: auto;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 1.15rem;
+    padding: 0.6rem 0.9rem;
+  }
+
+  .navbar-nav {
+    gap: 1.2rem !important;
+  }
+
+  .navbar .bi {
+    font-size: 1.4rem;
+  }
+
+  .nav_container {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+
+  header.header-sec {
+      margin-top: -165px;
+  }
+
+  header img {
+    height: 100vh !important; 
+    object-fit: fill !important;
+  }    
+
+  .carousel-item .img-box {
+    flex: 1 1 45%;
+    max-width: 45%;
+  }
+
+  .aboutUs_container, .aboutUs_container.reverse {
+    flex-direction: column;
+  }
+
+  .aboutUs_img,.aboutUs_info {
+    width: 100%;
+  }
+
+ 
+  .aboutUs_img {
+    height: 400px; 
+  }
+
+  .aboutUs_img img {
+    position: relative;
+    bottom: 20px;
+  }
+
+  .aboutUs_info {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .footer_img{
+    display: flex;
+    width: 150% !important;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+
+
